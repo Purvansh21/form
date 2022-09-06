@@ -10,13 +10,13 @@
     <title>Form</title>
 </head>
 <script>
-    function validateForm() {
-        if(document.form.IsEmpty){
-            alert("Fill Up the Form first")
-        }
-        else{
-        alert("Sign Up Successful")}
-    }
+   function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Form must be filled out first");
+    return false;
+  }
+}
   
 </script>
 
@@ -34,12 +34,12 @@
             <tr>
                 <td><label style="color:crimson">*Email</label></td>
                 <td>
-                    <form><input placeholder="Your Email" type="email" required name="" id="">
+                    <form name="myForm"><input placeholder="Your Email" type="email" required name="" id="">
                 </td>
             </tr>
             <tr>
                 <td><label for="" style="color:crimson">*Name</label></td>
-                <td><input placeholder="Your Name" type="text" required></td>
+                <td><input placeholder="Your Name" type="text" name="fname" required></td>
             </tr>
             <tr>
                 <td><label for="">Phn No.</label></td>
