@@ -10,9 +10,16 @@
     <title>Form</title>
 </head>
 <script>
-    function validateForm(){
-    alert("Sign Up Successful")}
+    function validateForm() {
+        if(document.form.IsEmpty){
+            alert("Fill Up the Form first")
+        }
+        else{
+        alert("Sign Up Successful")}
+    }
+  
 </script>
+
 <body>
     <h4>*Required Fields</h4>
     <div class="top-container">
@@ -31,7 +38,7 @@
                 </td>
             </tr>
             <tr>
-                <td><label for="" style="color:crimson" >*Name</label></td>
+                <td><label for="" style="color:crimson">*Name</label></td>
                 <td><input placeholder="Your Name" type="text" required></td>
             </tr>
             <tr>
@@ -117,7 +124,8 @@
     </div>
 
     </table>
-    <div class="button-f"><button class="btn" onclick="validateForm()">Sign Up</button> or <a class="link" href="index.html">Login</a>
+    <div class="button-f"><button class="btn" onclick="validateForm()">Sign Up</button> or <a class="link"
+            href="index.html">Login</a>
 </body>
 
 </html>
