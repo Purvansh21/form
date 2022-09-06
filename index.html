@@ -3,11 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="index.js">
+    
     <title>Form</title>
 </head>
-
+<script>
+    function createForm() 
+    {alert("Create an Account first")
+       
+      document.getElementById("demo").innerHTML = txt;
+    }
+    </script>
 <body>
 
     <div class="top-container">
@@ -18,7 +26,7 @@
 
     </div>
     <div class="bottom-container">
-        <form action="Login Succesful">
+        <form>
             <table class="table">
                 <tr>
                     <td> <label>Email Address:</label></td>
@@ -30,15 +38,14 @@
                 </tr>
             </table>
 
-            <div class="button"><button class="btn">Login</button> or <a class="link" href="">Create An
+            <div class="button"><button class="btn" onclick="createForm()">Login</button> or <a class="link" href="Account.html">Create An
                     Account</a>
 
             </div>
-
-            <p>If you forgot the password.Click on<a href="">Forgot Password</a></p>
-
+            <p>If you forgot the password.Click on<a href="Password.html">Forgot Password</a></p>
+            
         </form>
-
+       
     </div>
 </body>
 

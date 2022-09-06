@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="acc.css">
+    <link rel="stylesheet" href="index.js">
+    <title>Form</title>
+</head>
+<script>
+    function validateForm(){
+    alert("Sign Up Successful")}
+</script>
+<body>
+    <h4>*Required Fields</h4>
+    <div class="top-container">
+        <h1>GuestBook</h1>
+    </div>
+    <div class="middle-container">
+        <h1>Create an account</h1>
+
+    </div>
+    <div class="bottom-container">
+        <table>
+            <tr>
+                <td><label style="color:crimson">*Email</label></td>
+                <td>
+                    <form><input placeholder="Your Email" type="email" required name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="" style="color:crimson" >*Name</label></td>
+                <td><input placeholder="Your Name" type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Phn No.</label></td>
+                <td><input type="tel" placeholder="Your Phone No." maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label for="" style="color:crimson">*Password</label></td>
+                <td><input type="password" placeholder="Unique Password" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Are u Indian?</label></td>
+                <td><input type="checkbox"></td>
+
+            </tr>
+            <tr>
+                <td><label for="">State</label></td>
+                <td>
+                    <select name="state-names" id="state-names">
+                        <option value="Default" selected>Select</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">KeralaS</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+
+
+
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p>Please select your age:</p>
+                </td>
+                <td>
+                    <input type="radio" id="age1" name="age" value="30">
+                    <label for="age1">0 - 30</label>
+                    <input type="radio" id="age2" name="age" value="60">
+                    <label for="age2">31 - 60</label>
+                    <input type="radio" id="age3" name="age" value="100">
+                    <label for="age3">61 - 100</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p>Please select your Gender:</p>
+                </td>
+                <td>
+                    <input type="radio" id="age1" name="gender" value="Male">
+                    <label for="age1">Male</label>
+                    <input type="radio" id="age2" name="gender" value="Female">
+                    <label for="age2">Female</label>
+                    <input type="radio" id="age3" name="gender" value="Other">
+                    <label for="age3">Other</label>
+                </td>
+            </tr>
+    </div>
+
+    </table>
+    <div class="button-f"><button class="btn" onclick="validateForm()">Sign Up</button> or <a class="link" href="index.html">Login</a>
+</body>
+
+</html>
