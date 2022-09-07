@@ -109,8 +109,12 @@ body {
 td,tr{
     padding:5px;
 }
-input{
-    width:500px
+input[input=email]{
+    width:250px
+}
+
+input[input=password]{
+    width:250px
 }
 .image{
 background-size: cover;
