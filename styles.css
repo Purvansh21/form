@@ -112,6 +112,9 @@ table {
 td,tr{
     padding:5px;
 }
+input{
+    width:50px
+}
 .image{
 background-size: cover;
 }
