@@ -109,11 +109,11 @@ body {
 td,tr{
     padding:5px;
 }
-input[input=email]{
+input[type=email]{
     width:100%
 }
 
-input[input=password]{
+input[type=password]{
     width:100%
 }
 .image{
