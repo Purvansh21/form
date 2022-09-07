@@ -105,15 +105,12 @@ body {
     background-size: cover;
 }
 
-table {
-    width: auto;
-}
 
 td,tr{
     padding:5px;
 }
 input{
-    width:250px
+    width:500px
 }
 .image{
 background-size: cover;
