@@ -111,10 +111,12 @@ td,tr{
 }
 input[type=email]{
     width:100%
+        box-sizing: border-box;
 }
 
 input[type=password]{
     width:100%
+        box-sizing: border-box;
 }
 .image{
 background-size: cover;
